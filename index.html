@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>DZ_26</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Преимущества</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Цены</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Поиск чая" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Найти</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="fs-1 fw-bold text-center my-5">
+    Наши чайные коллекции
+</div>
+<div class="container">
+    <div class="row g-3">
+        <div class="col-lg-4 pb-4">
+            <div class="card">
+                <img src="images/img1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Детокс чай лайм</h5>
+                    <p class="card-text">Великолепный чай внесет в вашу жизнь яркие краски и вкус
+                        расслабления</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 pb-4">
+            <div class="card">
+                <img src="images/img2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ягодный чай</h5>
+                    <p class="card-text">Нотки ягод позволят вам расслабиться и насладиться великолепием
+                        этого чая</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 pb-4">
+            <div class="card">
+                <img src="images/img3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Цветочный чай</h5>
+                    <p class="card-text">Душистые цветы создают невероятный аромат и наполняют вас
+                        энергией</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 pb-4">
+            <div class="card">
+                <img src="images/img4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Очищающий чай</h5>
+                    <p class="card-text">Бесподобный чай для получения утреннего заряда бодрости</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 pb-4">
+            <div class="card">
+                <img src="images/img5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Кислый чай</h5>
+                    <p class="card-text">Кислый чай для настоящих ценителей кислинки во время чаепития</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 pb-4">
+            <div class="card">
+                <img src="images/img6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Лимонная мята</h5>
+                    <p class="card-text">Смесь лимона с мятой сделает ваш день самым лучшим</p>
+                    <a href="#" class="btn btn-primary">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="mt-5 col-lg-6 mx-auto pb-4">
+        <div class="fs-2 fw-bold text-center pb-4">
+            Сделать заказ
+        </div>
+        <form class="row g-3 pt-4">
+            <div class="col-md-4">
+                <label for="First_name" class="form-label">Имя</label>
+                <input type="text" class="form-control" id="First_name" aria-label="First name">
+            </div>
+            <div class="col-md-4">
+                <label for="Last_name" class="form-label">Фамилия</label>
+                <input type="text" class="form-control" id="Last_name" aria-label="Last name">
+            </div>
+            <div class="col-md-4">
+                <label for="Phone" class="form-label">Телефон</label>
+                <input type="text" class="form-control" id="Phone" aria-label="Phone">
+            </div>
+            <div class="col-6">
+                <label for="Country" class="form-label">Страна</label>
+                <select class="form-select" id="Country" aria-label="Country">
+                    <option selected></option>
+                    <option value="Russia">Russia</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Belarus">Belarus</option>
+                </select>
+            </div>
+
+            <div class="col-6">
+                <label for="Index" class="form-label">Индекс</label>
+                <input type="text" class="form-control" id="Index" aria-label="Index">
+            </div>
+            <div class="col-12">
+                <label for="Address" class="form-label">Адрес</label>
+                <input type="text" class="form-control" id="Address" aria-label="Address">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<nav class="navbar navbar-light bg-light mt-4">
+    <div class="container-fluid">
+        <a class="navbar-brand text-secondary" href="#">Все права защищены</a>
+    </div>
+</nav>
+
+</body>
+</html>
